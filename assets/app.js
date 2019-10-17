@@ -40,7 +40,7 @@
     repos = repos || [];
     page = page || 1;
 
-    var uri = "https://api.github.com/orgs/ministryofjustice/repos?callback=?" +
+    var uri = "https://api.github.com/orgs/ministryofjusticecz/repos?callback=?" +
               "&per_page=100" +
               "&page=" + page;
 
@@ -100,7 +100,7 @@
   function getNumMembers(page, numMembers) {
     page = page || 1;
     numMembers = numMembers || 0;
-    var membersUri = "https://api.github.com/orgs/ministryofjustice/members?callback=?" +
+    var membersUri = "https://api.github.com/orgs/ministryofjusticecz/members?callback=?" +
                      "&per_page=100" +
                      "&page=" + page;
 
